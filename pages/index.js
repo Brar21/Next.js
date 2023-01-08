@@ -19,6 +19,7 @@ export default function Home()
           </Head>
           <main>
               <h1>counter :{count} with next.js on github and vercel</h1>
+              <h2>Not working on github</h2>
               <br />
               <button onClick={()=>setCount(count+1)}>+</button>
               <button onClick={()=>setCount(count-1)}>-</button>
