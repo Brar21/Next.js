@@ -18,7 +18,7 @@ export default function Home()
         <link rel="icon" href="/favicon.ico" />
           </Head>
           <main>
-              <h1>counter :{count} with next.js</h1>
+              <h1>counter :{count} with next.js on github and vercel</h1>
               <br />
               <button onClick={()=>setCount(count+1)}>+</button>
               <button onClick={()=>setCount(count-1)}>-</button>
